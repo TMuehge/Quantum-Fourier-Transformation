@@ -3,7 +3,7 @@ Classical Fourier transformation is a widely used and well established technique
 
 ### Why doing it on a Quantum Computer?
 
-Quantum Fourier Analysis is analogous to the classical Fourier transformation, by making use of quantum parallelism. With this we get an exponential speedup. Unfortunately, this directly does not make signal processing faster due to its specific quantum nature [1].  
+Quantum Fourier Analysis is analogous to the classical Fourier transformation, by making use of quantum parallelism. With this we get an exponential speedup. Unfortunately, this directly does not make signal processing faster due to its specific quantum nature.  
 However, many Quantum Algorithms are relying essentially on Quantum Fourier Transformation (QFT) like e.g., factorization large numbers by Shor’s algorithm [5].
 In this Blog we will used QFT to analyze an example piece of music. In doing so, 
 we want to outline how QFT works in principle. Finally we will link this to arty quantum-images and with this create a film with music and the respective synchronous Quantum analysis.
@@ -26,6 +26,7 @@ If we want to transform x into the frequency space we calculate a new vector y w
 Quantum Fourier Transformation is almost the same. We take an orthonormal basis |0> … |N-1> and perform a transformation into the Fourier basis. 
 
 <img src="https://github.com/TMuehge/Quantum-Fourier-Transformation/blob/main/artwork/qft.png?raw=true" alt="sound2" title="sound2">
+
 N = 2 for 1 qubit <br />
 N = 4 for 2 qubits <br />
 N = 8 for 3 qubits <br />
